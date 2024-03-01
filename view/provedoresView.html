@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <!--Bootstrap-->
+    <link rel="icon" href="./imagenes/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>Preguntados</title>
+</head>
+
+<body>
+    <header class="d-flex">
+        <img class="logo" src="../public/logo.png" alt="" />
+
+        <div id="div_menu">
+            <a href="/home/show" class="btn boton_menu">Home</a>
+            <a href="/home/servicios?filtro=salones" class="btn boton_menu">Salones</a>
+            <a href="/home/servicios?filtro=salones" class="btn boton_menu">Servicios</a>
+            <a href="#testimonios" class="btn boton_menu">Testimonios</a>
+        </div>
+        <div>
+            <img class="icon_carrito" src="../public/carrito.png" alt="" />
+            <a href="/home/carrito" class="btn boton2"> Soy proovedor </a>
+        </div>
+    </header>
+
+
+
+    <div id="div_registro">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, sed placeat nam blanditiis facere porro rerum
+            minima est similique impedit necessitatibus rem delectus in at dolor vero! Magni architecto ullam libero
+            ducimus commodi temporibus, maxime ad delectus sit excepturi quae sint hic nihil quas sunt vel enim
+            blanditiis. Distinctio ratione laborum natus exercitationem cum beatae maxime, accusamus quam sequi! Ab.</p>
+        <form id="div_registro_form">
+            <div class="form-row w-100">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <button type="submit" class="btn boton2">Ingresar</button>
+        </form>
+    </div>
+
+    <main>
+
+
+        <section id="home_salones">
+
+            <div class="div_titulo">
+                <img class="img_cinta" src="../public/cinta1.png" alt="">
+                <h2 class="titulo">Elegi uno de nuestros planes para impulsar tu negocio</h2>
+                <img class="img_cinta" src="../public/cinta2.png" alt="">
+
+            </div>
+
+            <div class="div_section_content div_section_content_espacio">
+                <div class="div_home_testimonios">
+                    <span class="promo_span"><span class="promo_precio">1200$</span> / mensual <br> 10000$ anual</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore dicta laborum aliquam
+                        mollitia iusto ea ipsum, minima enim, nobis pariatur eaque praesentium delectus debitis!
+                        Explicabo id consequatur autem perspiciatis libero blanditiis adipisci dolor suscipit a ducimus!
+                        Facilis, repudiandae distinctio sit eaque minus obcaecati voluptatum facere quae unde aspernatur
+                        animi, necessitatibus quidem natus blanditiis, iste dicta repellat consequatur sunt ipsam?</p>
+                    <a href="/home/carrito" class="btn boton2"> Contratar </a>
+                </div>
+                <div class="div_home_testimonios">
+                    <span class="promo_span"><span class="promo_precio">1400$</span> / mensual <br> 10000$ anual</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore dicta laborum aliquam
+                        mollitia iusto ea ipsum, minima enim, nobis pariatur eaque praesentium delectus debitis!
+                        Explicabo id consequatur autem perspiciatis libero blanditiis adipisci dolor suscipit a ducimus!
+                        Facilis, repudiandae distinctio sit eaque minus obcaecati voluptatum facere quae unde aspernatur
+                        animi, necessitatibus quidem natus blanditiis, iste dicta repellat consequatur sunt ipsam?</p>
+                    <a href="/home/carrito" class="btn boton2"> Contratar </a>
+                </div>
+                <div class="div_home_testimonios">
+                    <span class="promo_span"><span class="promo_precio">1600$</span> / mensual <br> 10000$ anual</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore dicta laborum aliquam
+                        mollitia iusto ea ipsum, minima enim, nobis pariatur eaque praesentium delectus debitis!
+                        Explicabo id consequatur autem perspiciatis libero blanditiis adipisci dolor suscipit a ducimus!
+                        Facilis, repudiandae distinctio sit eaque minus obcaecati voluptatum facere quae unde aspernatur
+                        animi, necessitatibus quidem natus blanditiis, iste dicta repellat consequatur sunt ipsam?</p>
+                    <a href="/home/carrito" class="btn boton2"> Contratar </a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <img src="../public/cinta_flores.png" alt="" class="img_footer">
+        <div id="div_menu">
+            <a href="/home/show" class="btn boton_menu">Home</a>
+            <a href="/home/servicios?filtro=salones" class="btn boton_menu">Salones</a>
+            <a href="/home/servicios?filtro=salones" class="btn boton_menu">Servicios</a>
+            <a href="#testimonios" class="btn boton_menu">Testimonios</a>
+        </div>
+
+        <p>Telefono: +54 1126355251 Instagram: @armatuevento </p>
+    </footer>
+
+
+</body>
+
+</html>
