@@ -93,6 +93,10 @@ body h4{
     width: 50%;
 }
 
+/*home SERVICIOS*/
+.icon_servicios {
+    width: 250px ;
+}
 
 
 /*home testimonios*/
@@ -107,7 +111,8 @@ body h4{
 
 .icon_perfil{
     height: 150px;
-    width: 300px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
@@ -281,11 +286,6 @@ button.boton2{
     max-width: 70%;
 }
 
-#div_filtros{
-    max-width: 300px;
-    background-color: #AFC3F6;
-}
-
 .div_servicio{
     width: 300px;
     height: 350px;
@@ -342,3 +342,79 @@ button.boton2{
     height: 50px;
     border-radius:5px ;
 }
+
+/*filtros*/
+
+#div_filtros{
+    width: 300px;
+    min-width: 200px;
+}
+
+.div_filtros_div{
+}
+
+.titulo_filtro{
+    color: var(--color-dos);
+    padding: 15px 0;
+    border-bottom: 5px solid var(--color-cuatro);
+}
+
+.div_filtros_div div{
+    display: flex;
+    justify-content: space-between;
+}
+p.filtros_cant{
+    background-color:rgba(0, 0, 0, 0.299);
+    padding: 0 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.div_filtros_div select, form.div_filtros_div input{
+    width: 80%;
+    padding: 10px;
+    border: 0px solid var(--color-cuatro);
+    border-radius: 10px;
+}
+
+form.div_filtros_div input{
+    border: 2px solid var(--color-cuatro);
+}
+
+.f_enviar{
+    height: max-content;
+    border: 0px solid var(--color-cuatro);
+    background-color:var(--color-cuatro);
+    padding:4px 10px ;
+    border-radius: 100%;
+    color: white;
+    font-weight: 600;
+
+}
+
+form.div_filtros_div div{
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 2000px) {
+.div_section_content{
+    margin: 0 15%;
+
+}
+
+}
+
+@media (max-width: 1400px) {
+    .div_section_content{
+        margin: 0 10%;
+    
+    }
+    
+    img.logo, .div_header_prov{
+        display: none;
+    }
+
+    }
