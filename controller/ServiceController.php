@@ -1,6 +1,8 @@
 <?php
 
-class HomeController {
+class ServiceController
+{
+
     private $render;
     private $model;
 
@@ -13,9 +15,7 @@ class HomeController {
         $datos = [
 
         ];
-        $this->render->printView('index');//crea una vista, con el constructor de esta clase, llamada home
+        $this->render->printView('servicios');//crea una vista, con el constructor de esta clase, llamada home
     }
-
-
 
 }
