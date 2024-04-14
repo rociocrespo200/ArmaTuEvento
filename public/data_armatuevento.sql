@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS Proveedor (
 
 CREATE TABLE IF NOT EXISTS Imagenes (
 	id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255));
+    imagen VARCHAR(255));
 
 CREATE TABLE IF NOT EXISTS Servicio (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -126,5 +126,29 @@ INSERT INTO Plan (nombre, precio, beneficios) VALUES ('Básico', 3000, 'Acceso a
 INSERT INTO Plan (nombre, precio, beneficios) VALUES ('Medium', 4500, 'Acceso a servicios intermedios');
 INSERT INTO Plan (nombre, precio, beneficios) VALUES ('Pro', 6000, 'Acceso a todos los servicios');
 
+INSERT INTO Proveedor (nombre, apellido, empresa, email, telefono, region_id, provincia_id, plan_id) VALUES
+('Juan', 'Martínez', 'Fotografía Martínez', 'juan.martinez@example.com', '123-456-7890', 1, 1, 1),
+('María', 'González', 'Catering Gourmet', 'maria.gonzalez@example.com', '987-654-3210', 2, 2, 2),
+('Pedro', 'López', 'Salones de Pedro', 'pedro.lopez@example.com', '456-789-0123', 3, 3, 3),
+('Laura', 'Díaz', 'Decoraciones Laura', 'laura.diaz@example.com', '321-654-0987', 1, 2, 1),
+('Carlos', 'Rodríguez', 'Sonido y Luces Carlos', 'carlos.rodriguez@example.com', '789-012-3456', 2, 3, 2);
 
+
+INSERT INTO Imagenes (imagen) VALUES ("sinImagen.jpg");
+
+INSERT INTO Servicio (titulo, tipoDeServicio_id, descripcion, imagenes_id, proveedor_id) VALUES
+('Gran Salón Celestial', 4, 'Un majestuoso salón con techos altos y una decoración elegante. Perfecto para bodas y eventos formales.', 1, 1),
+('Salón Dorado', 4, 'Un espacio encantador con una atmósfera cálida y acogedora. Ideal para celebraciones íntimas y reuniones familiares.', 1, 1),
+('Salón de Cristal', 4, 'Un salón moderno con paredes de vidrio que ofrecen vistas panorámicas de la ciudad. Perfecto para eventos corporativos y lanzamientos de productos.', 1, 1),
+('Salón de la Luna', 4, 'Un salón íntimo ubicado en el corazón del centro histórico. Su encanto rústico lo convierte en el escenario perfecto para bodas bohemias y fiestas temáticas.', 1, 1),
+('Salón Esmeralda', 4, 'Un salón espacioso con un diseño contemporáneo y una iluminación espectacular. Ideal para fiestas de cumpleaños y eventos sociales.', 1, 1),
+('Servicio de fotografía', 3, 'Capturamos los momentos más especiales de tu evento con profesionalismo y creatividad. Paquetes personalizados disponibles.', 1, 1),
+('Catering gourmet', 8, 'Deliciosos platillos preparados por nuestros chefs expertos. Ofrecemos una amplia variedad de opciones para satisfacer todos los gustos.',1, 3),
+('Alquiler de mobiliario', 9, 'Contamos con una amplia selección de mobiliario elegante y funcional para tu evento. Desde sillas y mesas hasta lounges y barras.', 1, 4),
+('DJ y entretenimiento', 5, 'Haz que tu evento sea inolvidable con la mejor música y entretenimiento. Nuestros DJs profesionales mantendrán a tus invitados en movimiento toda la noche.', 1, 5),
+('Decoración temática', 10, 'Transformamos cualquier espacio en el escenario perfecto para tu evento. Desde bodas elegantes hasta fiestas temáticas, creamos ambientes mágicos.', 1, 3),
+('Servicio de transporte', 1, 'Nos encargamos de que tus invitados lleguen y regresen seguros a casa. Contamos con una flota de vehículos cómodos y conductores profesionales.', 1, 4),
+('Planificación de eventos', 10, 'Deja que nuestro equipo de expertos se encargue de todos los detalles para que puedas disfrutar al máximo de tu evento. Desde la conceptualización hasta la ejecución.', 1, 3);
+
+SELECT * FROM servicio s JOIN tipodeservicio t ON t.id = s.tipodeservicio_id  JOIN imagenes i ON t.id = s.imagenes_id WHERE t.tipo = "Adicionales"
 

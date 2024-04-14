@@ -12,10 +12,15 @@ class ServiceController
     }
 
     public function show() {
-        $datos = [
 
+        $filtro = isset($_GET['filtro']) ? $_GET['filtro'] : null;
+
+        $datos = [
+            'servicios' => $this->model->traerServicios($filtro)
         ];
-        $this->render->printView('servicios');//crea una vista, con el constructor de esta clase, llamada home
+
+//        print_r($datos['servicios']);
+        $this->render->printView('servicios', $datos);//crea una vista, con el constructor de esta clase, llamada home
     }
 
 }

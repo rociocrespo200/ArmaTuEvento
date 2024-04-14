@@ -56,108 +56,17 @@
             
 
             <div class="div_section_content">
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                    <div class="servicio_icon"> <img src="../public/icon1.png" alt=""></div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                    <div class="servicio_icon"> <img src="../public/icon1.png" alt=""></div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                
-
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                    <div class="servicio_icon"> <img src="../public/icon1.png" alt=""></div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                <a href="indexView.mustache" class="div_servicio">
-                    <div class="imagen_salones" src="../public/portada1.jpg" alt=""></div>
-                    <div class="div_servicio_info">
-                        <h4> Salon para fiestas</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis.</p>
-                        <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
-                    </div>
-                </a>
-                
+                {{#servicios}}
+                    <a href="indexView.mustache" class="div_servicio">
+                        <img class="imagen_salones" src="../public/{{imagen.nombre}}" alt=""></img>
+                        <div class="div_servicio_info">
+                            <h4>{{titulo}}</h4>
+                            <p>{{descripcion}}</p>
+                            <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
+                        </div>
+                        <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
+                    </a>
+                {{/servicios}}
 
                 
 
