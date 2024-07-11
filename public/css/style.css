@@ -249,7 +249,7 @@ footer p{
 
 /* portada */
 
-#div_registro {
+.div_user {
     min-height: 80vh;
     background: url("../marco_flores.png");
     background-position: center;
@@ -261,13 +261,13 @@ footer p{
     color: var(--color-uno);
 }
 
-#div_registro p{
+.div_user p{
     width: 50%;
     text-align: center;
     padding: 40px;
 }
 
-#div_registro_form{
+.div_user_form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,8 +276,9 @@ footer p{
     align-items: center;
 }
 
-#div_registro_form div {
+.div_user_form div {
     width: 100%;
+    margin-bottom: 0;
 }
 
 button.boton2{
@@ -289,6 +290,10 @@ button.boton2{
     font-size: var(--fuente-size-botones);
     color: var(--color-uno);
 
+}
+
+.ocultar_div{
+    display: none;
 }
 
 

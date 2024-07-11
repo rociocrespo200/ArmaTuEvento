@@ -1,8 +1,8 @@
 
 
-    <div id="div_registro">
+    {{! <div class="div_user" id="div_ingreso">
         <h2>Iniciar sesion</h2>
-        <form id="div_registro_form">
+        <form class="div_user_form">
                 <div>
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
@@ -14,8 +14,38 @@
             <button type="submit" class="btn boton2">Ingresar</button>
         </form>
         <span class="text-center"> ** Si todabia no tiene una cuenta <a href="">Registrate</a> <br> <a href="">No recuerdo mi contraseña</a></span>
-    </div>
+    </div> }}
 
+    <div class="div_user" id="div_registro">
+        <form class="div_user_form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Apellido</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <div>
+                <label for="inputEmail4">Nombre de la empresa</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <button type="submit" class="btn boton2">Registrarse</button>
+        </form>
+        <span class="text-center"> ** Si ya tienes una cuenta <a href="">Ingresa</a> **</span>
+    </div>
     <main>
 
 
