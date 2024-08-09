@@ -21,4 +21,13 @@ class UserController
         $this->render->printView('provedores');//crea una vista, con el constructor de esta clase, llamada home
     }
 
+
+    public function ingresar() {
+        //validar ingreso
+        $datos = [
+
+        ];
+        $this->render->printView('homeProvedor');
+    }
+
 }

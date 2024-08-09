@@ -5,60 +5,49 @@
         <section id="section_servicios">
 
 
-            <div class="div_filtos_1">
-                <form class="div_filtros_div">
+            <form class="div_filtos_1" id="div_filtros" method="post" action="/service/filtrar" enctype="multipart/form-data">
+                <div class="div_filtros_div">
                     <h5 class="titulo_filtro">Buscar por:</h5>
                     <div>
                         <input type="search">
-                        <button type="submit" class="f_enviar">></button>
                     </div>
                     
-                </form>
-                <form class="div_filtros_div">
-                    <h5 class="titulo_filtro">Ordenar por:</h5>
+                </div>
 
+                <div class="div_filtros_div">
+                    <h5 class="titulo_filtro">Ordenar por:</h5>
                     <div>
                         <select name="" id="" class="gro">
                             <option value="">Recomendados</option>
                         </select>
-                        <button type="submit" class="f_enviar">></button>
                     </div>
-                
-                </form>
-                <form id="div_filtros">
-                
-                    
+                </div>
+
+                {{#hayTipos}}
+                <div >
                     <div class="div_filtros_div">
                         <h5 class="titulo_filtro">Tipo de servicio:</h5>
+                        {{#tipos}}
                         <div>
-                            <label for=""><input type="checkbox" name="servicios" value="salones" id=""> Salones</label>
+                            <label for=""><input type="checkbox" name="{{id}}" value="salones" id=""> {{tipo}}</label>
                             <p class="filtros_cant">10</p>
                         </div>
-                        <div>
-                            <label for=""><input type="checkbox" name="servicios" value="salones" id=""> Salones</label>
-                            <p class="filtros_cant">10</p>
-                        </div>
-                        <div>
-                            <label for=""><input type="checkbox" name="servicios" value="salones" id=""> Salones</label>
-                            <p class="filtros_cant">10</p>
-                        </div>
-                        <div>
-                            <label for=""><input type="checkbox" name="servicios" value="salones" id=""> Salones</label>
-                            <p class="filtros_cant">10</p>
-                        </div>
-                        <div>
-                            <label for=""><input type="checkbox" name="servicios" value="salones" id=""> Salones</label>
-                            <p class="filtros_cant">10</p>
-                        </div>
+                        {{/tipos}}
                     </div>
-                </form>
-            </div>
+                </div>
+                {{/hayTipos}}
+
+                <button type="submit" class="btn boton2" >Filtrar</button>
+
+            </form>
             
 
             <div class="div_section_content">
                 {{#servicios}}
-                    <a href="indexView.mustache" class="div_servicio">
-                        <img class="imagen_salones" src="../public/{{imagen.nombre}}" alt=""></img>
+                    <a href="/service/show?id={{id}}" class="div_servicio">
+                        {{#portada}}
+                        <img class="imagen_salones" src="../public/{{portada.imagen}}" alt="">
+                        {{/portada}}
                         <div class="div_servicio_info">
                             <h4>{{titulo}}</h4>
                             <p>{{descripcion}}</p>
@@ -68,6 +57,19 @@
                     </a>
                 {{/servicios}}
 
+                {{#salones}}
+                    <a href="/service/show?id={{id}}" class="div_servicio">
+                        {{#portada}}
+                        <img class="imagen_salones" src="../public/{{portada.imagen}}" alt="">
+                        {{/portada}}
+                        <div class="div_servicio_info">
+                            <h4>{{titulo}}</h4>
+                            <p>{{descripcion}}</p>
+                            <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
+                        </div>
+                        <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
+                    </a>
+                {{/salones}}
                 
 
             </div>

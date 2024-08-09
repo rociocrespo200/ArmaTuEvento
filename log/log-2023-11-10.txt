@@ -1,0 +1,2040 @@
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 3 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query DELETE FROM `preguntados`.`reporte` WHERE `id` = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = '', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = '', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 2 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = '', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = '', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = '', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = 'Historia', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = 'Historia', imagen = 'icon_historia.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = 'Historiadsca', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = 'Historiadsca', imagen = 'icon_historia.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET categoria = 'Historia', imagen = 'categoria.png'  WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query INSERT INTO categoria (categoria, imagen) VALUES ('Nueva categoria','categoria.png') 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id_categoria = 7 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET habilitada = 0 WHERE id = 7 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id_categoria = 7 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET habilitada = 0 WHERE id = 7 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query INSERT INTO categoria (categoria, imagen) VALUES ('fdg','categoria.png') 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id_categoria = 7 
+[2023-11-10][INFO]Ejecutando Query UPDATE categoria SET habilitada = 0 WHERE id = 7 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           U.foto_qr,
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-11-10][INFO]Usuario alta: INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('dcsdcf', 'sdfcsd', '200', '','femenino', '', 'dsfdgv@gmail.com', 'drfds', '342', 'profile.png', '', '-34.64521906442568', '-58.544843546435544')
+[2023-11-10][INFO]Ejecutando Query INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('dcsdcf', 'sdfcsd', '200', '','femenino', '', 'dsfdgv@gmail.com', 'drfds', '342', 'profile.png', '', '-34.64521906442568', '-58.544843546435544') 
+[2023-11-10][INFO]Ejecutando Query SELECT id from Usuario ORDER BY id desc LIMIT 1  
+[2023-11-10][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `foto_qr` = 'codigo_qr_5.png' WHERE `id` = 5 
+[2023-11-10][INFO]Usuario alta: INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('cdsdcsdcv', 'csddsc', '345', '','masculino', '', 'fdvf@gdddd.com', 'fdvsdv', 'sdvv', 'profile.png', '', '-34.65623378498936', '-58.5450152078125')
+[2023-11-10][INFO]Ejecutando Query INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('cdsdcsdcv', 'csddsc', '345', '','masculino', '', 'fdvf@gdddd.com', 'fdvsdv', 'sdvv', 'profile.png', '', '-34.65623378498936', '-58.5450152078125') 
+[2023-11-10][INFO]Ejecutando Query SELECT id from Usuario ORDER BY id desc LIMIT 1  
+[2023-11-10][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `foto_qr` = 'codigo_qr_6.png' WHERE `id` = 6 
+[2023-11-10][INFO]Usuario alta: INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('sdvcsdvdfvsfvb 3', 'fbdbbfdb', '3234', '','masculino', '', 'cfdsfdrc@ganm.com', '23443', '2564', 'profile.png', '', '-34.66131700853061', '-58.56561457304687')
+[2023-11-10][INFO]Ejecutando Query INSERT INTO `usuario` (`nombre`, `apellido`, `anio_nacimiento`, `genero`, `pais`, `ciudad`, `mail`, `usuario`, `clave` ,`foto_perfil`,`token`, `latitud`, `longitud`) 
+        VALUES ('sdvcsdvdfvsfvb 3', 'fbdbbfdb', '3234', '','masculino', '', 'cfdsfdrc@ganm.com', '23443', '2564', 'profile.png', '', '-34.66131700853061', '-58.56561457304687') 
+[2023-11-10][INFO]Ejecutando Query SELECT id from Usuario ORDER BY id desc LIMIT 1  
+[2023-11-10][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `foto_qr` = 'codigo_qr_7.png' WHERE `id` = 7 

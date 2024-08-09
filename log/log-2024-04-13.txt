@@ -1,0 +1,5 @@
+[2024-04-13][INFO]Ejecutando Query SELECT * FROM `servicio` 
+[2024-04-13][INFO]Ejecutando Query SELECT * FROM `servicio` 
+[2024-04-13][INFO]Ejecutando Query SELECT * FROM `servicio` 
+[2024-04-13][INFO]Ejecutando Query SELECT * FROM `servicio` 
+[2024-04-13][INFO]Ejecutando Query SELECT * FROM `servicio` 

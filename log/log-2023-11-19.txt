@@ -1,0 +1,291 @@
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 6 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'administrador123' AND clave = '1234' 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 
+[2023-11-19][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 5 

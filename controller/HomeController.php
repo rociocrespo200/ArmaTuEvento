@@ -17,5 +17,11 @@ class HomeController {
     }
 
 
+    public function mostrarCarrito() {
+        $datos = [
+
+        ];
+        $this->render->printView('carrito');//crea una vista, con el constructor de esta clase, llamada home
+    }
 
 }

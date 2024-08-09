@@ -1,0 +1,1652 @@
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'usuario5463' AND clave = '1234UNlaM' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (7) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 7 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 18 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 18 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 18 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (7) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (7) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (19,69) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 69 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 258 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (19,3) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =19 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (19,258) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 69 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '10' WHERE `id` =19 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 9 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (19,60) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 60 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 19 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '3' WHERE `id` =19 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (19,9) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '20' WHERE `id` =19 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (20,37) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 37 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 146 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (20,34) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 34 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =20 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (20,146) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 146 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (20,69) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 69 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 20 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,14) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 14 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 53 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,46) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 46 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (21,53) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 53 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =14 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 14 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '10' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 182 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,3) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '3' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (21,182) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 182 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =46 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 46 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '20' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 9 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,16) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 16 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '4' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (21,9) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 9 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =3 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '30' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 61 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,38) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 38 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '5' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (21,61) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 61 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =16 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 16 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '40' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '11' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 151 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 2 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (21,2) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '6' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (21,151) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 151 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =38 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 38 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '30' WHERE `id` =21 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '-9' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (22,21) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 81 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (22,44) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 44 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =22 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (22,81) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 81 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =21 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =21 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 0 AND r.id_pregunta =21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 81 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (22,60) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 60 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 22 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (23,7) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (23,19) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =23 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (23,25) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =7 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =7 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 0 AND r.id_pregunta =7 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (23,8) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 8 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 23 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (24,36) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 36 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 142 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (24,15) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 15 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =5 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =24 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (24,142) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 142 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =36 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =36 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 0 AND r.id_pregunta =36 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 142 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (24,54) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 54 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (25,8) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 8 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (25,46) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 46 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =25 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (25,29) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =8 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =8 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 0 AND r.id_pregunta =8 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (25,15) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 15 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =5 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 25 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (26,33) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 33 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 130 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (26,44) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 44 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 26 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =26 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (26,130) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 130 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =33 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =33 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE (`id` =33 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,33) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 33 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 130 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,1) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (27,130) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 130 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =33 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =33 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =33 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 33 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '50' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,38) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 38 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '3' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (27,1) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =1 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =1 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '100' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 150 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,28) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '4' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (27,150) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 150 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =38 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =38 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =38 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 38 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '150' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 110 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,44) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 44 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '5' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (27,110) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 110 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =28 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =28 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =28 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '200' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 150 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (27,24) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 24 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '6' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (27,150) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 150 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =38 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =38 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =38 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 38 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '250' WHERE `id` =27 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (28,60) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 60 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 238 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (28,21) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 28 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =28 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (28,238) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 238 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =60 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =60 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =60 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 60 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '50' WHERE `id` =28 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 21 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query INSERT into reporte (id_pregunta, motivo, id_usuario) VALUES (21, 'adscsd al,kmsñlxs', 1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('efdwrfg','1','1') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('fwerf', '1', ''),('wefw', '0', ''),('ewf', '0', ''),('wef', '0', '') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('efdwrfg','1','1') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('fwerf', '1', '77'),('wefw', '0', '77'),('ewf', '0', '77'),('wef', '0', '77') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('efdwrfg','1','1') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('fwerf', '1', '78'),('wefw', '0', '78'),('ewf', '0', '78'),('wef', '0', '78') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query DELETE FROM pregunta WHERE id = '1' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitad = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitad = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('que es alberto fernandez','1','2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('presidente ', '1', '79'),('cientifico', '0', '79'),('profesor', '0', '79'),('ingeniero', '0', '79') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('que es alberto fernandez','1','2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('presidente ', '1', '80'),('cientifico', '0', '80'),('profesor', '0', '80'),('ingeniero', '0', '80') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO sugerencia (pregunta, id_categoria, id_dificultad, respuestaCorrecta, respuestaIncorrecta1, respuestaIncorrecta2, respuestaIncorrecta3)VALUES 
+                                    ('cuanto es 2 x2 ', '3', '2', '4', '5', '2', '6') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO sugerencia (id_usuario, pregunta, id_categoria, id_dificultad, respuestaCorrecta, respuestaIncorrecta1, respuestaIncorrecta2, respuestaIncorrecta3)VALUES 
+                                    ('1','cuanto es 2 x2 ', '3', '2', '4', '5', '2', '6') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencias` s JOIN categotia c ON s.id_categoria = c.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categotia c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia`  WHERE id = '1' 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('cuanto es 2 x2 ','3','2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('4', '1', '81'),('5', '0', '81'),('2', '0', '81'),('6', '0', '81') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia`  WHERE id = '1' 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('cuanto es 2 x2 ','3','2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('4', '1', '82'),('5', '0', '82'),('2', '0', '82'),('6', '0', '82') 
+[2023-10-31][INFO]Ejecutando Query DELETE FROM `sugerencia` WHERE id = '1' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 82 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('Nuerva pregunta','1','1') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('casdc', '1', '83'),('asc', '0', '83') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 76 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 78 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 79 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT ROW_NUMBER() OVER (ORDER BY U.puntos DESC) AS 'Posicion', 
+                                           U.id as 'id', 
+                                           U.usuario, 
+                                           U.nivel, 
+                                           U.puntos, 
+                                           U.foto_perfil, 
+                                           COUNT(*) AS 'CantidaddePartidas', 
+                                           SUM(P.preguntasContestadas) AS 'CantidaddePreguntas' 
+                                            FROM usuario U 
+                                            JOIN partida P ON U.id = P.id_usuario 
+                                            GROUP BY U.id, U.usuario, U.nivel, U.puntos 
+                                            ORDER BY U.puntos DESC; 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO sugerencia (id_usuario, pregunta, id_categoria, id_dificultad, respuestaCorrecta, respuestaIncorrecta1, respuestaIncorrecta2, respuestaIncorrecta3)VALUES 
+                                    ('1','NuEVA PREGUNTA 5', '3', '2', 'FGDF', 'FGDDF', 'FDG', 'FG') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,8) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 8 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,83) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,29) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =8 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =8 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =8 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 8 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '50' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 296 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,46) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 46 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '3' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,296) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 296 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =83 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =83 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =83 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 83 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '100' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 182 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,69) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 69 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '4' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,182) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 182 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =46 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =46 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =46 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 46 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '150' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 258 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,3) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '5' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,258) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 258 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =69 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =69 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =69 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 69 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '200' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 9 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,44) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 44 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '6' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,9) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 9 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =3 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =3 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '250' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 174 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (29,34) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 34 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '7' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (29,174) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 174 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =44 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =44 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =44 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 44 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '300' WHERE `id` =29 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id =  
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 30 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 30 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 30 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (30,34) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 34 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 34 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query INSERT into reporte (id_pregunta, motivo, id_usuario) VALUES (34, 'nUEVO REPORTE ', 1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'belen123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET habilitada = 0 WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM respuesta WHERE id_pregunta = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `categoria` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `dificultad` WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query UPDATE pregunta SET pregunta = '¿Cuál es el río más largo del mundo 2?', id_categoria = 2, id_dificultad = '2' WHERE id = 2 
+[2023-10-31][INFO]Ejecutando Query DELETE from respuesta WHERE id_pregunta=2 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('El río Nilo', '1', '2'),
+                                                                                                  ('El río Amazonas', '0', '2'),
+                                                                                                  ('El río Yangtsé', '0', '2'),
+                                                                                                  ('El río Misisipi', '0', '2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO pregunta (pregunta, id_categoria, id_dificultad) VALUES ('OTRA PREGUNTA','3','2') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM pregunta ORDER BY id DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO respuesta (respuesta, esCorrecta, id_pregunta) VALUES ('FDSF', '1', '84'),('SDFDF', '0', '84') 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` WHERE habilitada = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query select r.id as id, r.fecha as fecha, r.motivo as motivo, p.id as id_pregunta, p.pregunta as pregunta, u.id as id_usuario, u.usuario as usuario 
+                                        from reporte as r join usuario as u on r.id_usuario = u.id join pregunta as p on r.id_pregunta = p.id
+                                        order by fecha 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `sugerencia` s JOIN categoria c ON s.id_categoria = c.id JOIN usuario u ON s.id_usuario = u.id 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 4 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM usuario WHERE usuario = 'rocio123' AND clave = '1234' 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `pregunta` 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 31 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 31 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 31 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (31,19) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 19 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id =  
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida (id_usuario) VALUES (1) 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (32,37) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 37 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 146 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (32,36) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 36 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =3 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '2' WHERE `id` =32 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (32,146) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 146 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =37 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =37 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =37 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 37 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '50' WHERE `id` =32 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '51' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 143 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida WHERE id_usuario = 1 ORDER BY fecha DESC LIMIT 1 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 1 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 2 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT COUNT(pr.id_dificultad) AS dificultad FROM partida_preguntas AS pp JOIN partida AS p ON p.id = pp.id_partida JOIN pregunta AS pr ON pr.id = pp.id_pregunta WHERE pr.id_dificultad = 3 AND pp.id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Pregunta WHERE Pregunta.id_dificultad = 1 AND Pregunta.habilitada=1  
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_preguntas (id_partida, id_pregunta) VALUES (32,16) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE id_pregunta = 16 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Categoria  WHERE Categoria.id =2 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM partida_respuestas WHERE id_partida = 32 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `preguntasContestadas` = '3' WHERE `id` =32 
+[2023-10-31][INFO]Ejecutando Query INSERT INTO partida_respuestas (id_partida, id_respuesta) VALUES (32,143) 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Respuesta WHERE Respuesta.id = 143 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.id_pregunta =36 
+[2023-10-31][INFO]Ejecutando Query SELECT count(*) FROM partida_respuestas pr JOIN respuesta r ON r.id = pr.id_respuesta WHERE r.esCorrecta = 1 AND r.id_pregunta =36 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`pregunta` SET `id_dificultad` = '3' WHERE `id` =36 
+[2023-10-31][INFO]Ejecutando Query SELECT *  FROM Pregunta WHERE Pregunta.id = 36 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM Dificultad  WHERE Dificultad.id =3 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`partida` SET `puntos` = '0' WHERE `id` =32 
+[2023-10-31][INFO]Ejecutando Query UPDATE `preguntados`.`usuario` SET `puntos` = '-49' WHERE `id` =1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
+[2023-10-31][INFO]Ejecutando Query SELECT * FROM `usuario` WHERE id = 1 
