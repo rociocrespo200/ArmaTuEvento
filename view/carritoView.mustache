@@ -1,29 +1,55 @@
-<main>
-    
-    <form id="carrito">
+    <main>
 
-        <h2 class="titulo">Servicios en el carrito</h2>
+        <form id="carrito">
 
-        <div class="div_carrito">
-            <div>
-                <img src="../public/portada1.jpg"  class="img_carrito">
-                <p>Nombre del servicio - <a href="">Ver mas</a></p>
+            <h2 class="titulo">Servicios en el carrito</h2>
+
+            {{#servicios}}
+            <div class="div_carrito">
+                <div>
+                    <img src="../public/servicios/{{imagenes.portada.imagen}}" class="img_carrito">
+                    <p>{{titulo}} - <a href="">Ver mas</a></p>
+                </div>
+                <div>
+                    <a href="" class="btn boton3" id="boton{{id}}">+ Agregar mensaje</a>
+                    <a href="/carrito/eliminarDelCarrito?id={{id}}"><img class="boton_eliminar" src="../public/borrar.png" alt="" /></a>
+                </div>
             </div>
-            <div>
-                <a href="" class="btn boton3" >+ Agregar mensaje</a>
-                <a href="" ><img class="boton_eliminar" src="../public/borrar.png" alt="" /></a>
-            </div>           
-        </div>
+            <textarea class="form-control div_carrito" id="text{{id}}" rows="2" placeholder="Escribe tu consulta ..."
+                style="display: none;"></textarea>
+            {{/servicios}}
 
-        <div class="form-group w-50">
-            <label for="exampleFormControlTextarea1">Comentar cualquier detalle extra que quieras consultar</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn boton2 w-50" >Consultar servicios</button>
+            <button type="submit" class="btn boton2 w-50">Enviar consulta</button>
 
-    </form>
-</main>
+        </form>
+    </main>
 
+
+<script>
+    // Mostrar textarea al tocar el botón de agregar mensaje
+    document.addEventListener('DOMContentLoaded', function () {
+        // Seleccionamos todos los botones con la clase 'boton3'
+        var agregarMensajes = document.querySelectorAll('.boton3');
+
+        // Iteramos sobre cada botón
+        agregarMensajes.forEach(function (boton) {
+            boton.addEventListener('click', function (event) {
+                event.preventDefault(); // Previene que el enlace recargue la página
+
+                // Obtenemos el ID del botón y construimos el ID del textarea correspondiente
+                var id = boton.getAttribute('id').replace('boton', 'text');
+                var textArea = document.getElementById(id);
+
+                // Alternamos la visibilidad del textarea
+                if (textArea.style.display === 'none') {
+                    textArea.style.display = 'block';
+                } else {
+                    textArea.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
 
 
 

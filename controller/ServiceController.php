@@ -14,10 +14,26 @@ class ServiceController
     public function show() {
 
 
-        if (isset($_GET['id'])) { //Si selecciono un servicio especifico me envia al detalle de ese servicio
+        if (isset($_GET['id_servicio'])) { //Si selecciono un servicio especifico me envia al detalle de ese servicio
+            
+            $id = $_GET['id_servicio'];
+
             $datos = [
-                $id = $_GET['id']
+                'servicio' =>  $this->model->buscarServicio($id)  
             ];
+            
+            //print_r($datos['servicio']);
+            $this->render->printView('servicioEsp', $datos);
+
+        }else if (isset($_GET['id_salon'])) { //Si selecciono un salon especifico me envia al detalle de ese salon
+            
+            $id = $_GET['id_salon'];
+
+            $datos = [
+                'servicio' =>  $this->model->buscarSalon($id)  
+            ];
+            
+            //print_r($datos['servicio']);
             $this->render->printView('servicioEsp', $datos);
 
         }else{ //sino me trae todos los servicios
@@ -30,7 +46,7 @@ class ServiceController
             ];
     
            // print_r($datos['servicios']);
-            $this->render->printView('servicios', $datos);//crea una vista, con el constructor de esta clase, llamada home
+            $this->render->printView('servicios', $datos);
         }
 
     }
@@ -46,6 +62,43 @@ class ServiceController
         ];
         //print_r($datos['salones']);
         $this->render->printView('servicios', $datos);
+    }
+
+    public function agregarAlCarrito() {
+
+        if (isset($_GET['id'])) { //Si selecciono un servicio especifico me envia al detalle de ese servicio
+            
+            $id = $_GET['id'];
+            $nuevoServicio = $this->model->buscarServicio($id);
+            
+        if (!isset($_SESSION['carrito'])) { // Inicializar el carrito si no existe
+            $_SESSION['carrito'] = [];
+        }
+
+        
+        $existe = false; // Verificar si el servicio ya está en el carrito
+        foreach ($_SESSION['carrito'] as $servicio) {
+            if ($servicio['id'] == $id) {
+                $existe = true;
+                break;
+            }
+        }
+
+        // Si no existe, agregarlo al carrito
+        if (!$existe) {
+            $_SESSION['carrito'][] = $nuevoServicio;
+        }
+            
+            
+            Redirect::to('/service/show?id=' . $id);
+
+        }
+    }
+
+    public function vaciarCarrito() {
+        unset($_SESSION['carrito']); // Esto eliminará la variable de la sesión
+        // o bien, para asegurar que esté vacía pero siga existiendo:
+        $_SESSION['carrito'] = [];
     }
 
 }

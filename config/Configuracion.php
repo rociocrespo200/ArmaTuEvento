@@ -22,6 +22,8 @@ include_once("model/UserModel.php");
 include_once('controller/ServiceController.php');
 include_once("model/ServiceModel.php");
 
+include_once('controller/CarritoController.php');
+include_once("model/CarritoModel.php");
 
 include_once('third-party/mustache/src/Mustache/Autoloader.php');
 
@@ -62,6 +64,10 @@ class Configuracion {
         return new ServiceController($this->getRender(), $model);
     }
 
+    public function getCarritoController() {
+        $model = new CarritoModel($this->getDatabase());
+        return new CarritoController($this->getRender(), $model);
+    }
 
     public function getRouter() {
       //crea un objeto de tipo Ruta con un Controller y un metodo por defecto

@@ -37,31 +37,31 @@
                 </div>
                 {{/hayTipos}}
 
-                <button type="submit" class="btn boton2" >Filtrar</button>
+                <button type="submit" class="btn boton3 w-100 mt-2" >Filtrar</button>
 
             </form>
             
 
             <div class="div_section_content">
                 {{#servicios}}
-                    <a href="/service/show?id={{id}}" class="div_servicio">
-                        {{#portada}}
-                        <img class="imagen_salones" src="../public/{{portada.imagen}}" alt="">
-                        {{/portada}}
+                    <a href="/service/show?id_servicio={{id}}" class="div_servicio">
+
+                        <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
+
                         <div class="div_servicio_info">
                             <h4>{{titulo}}</h4>
                             <p>{{descripcion}}</p>
-                            <span class="span_ubicaion">Buenos aires, zona este, San justo</span>
+                            <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
                         </div>
                         <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
                     </a>
                 {{/servicios}}
 
                 {{#salones}}
-                    <a href="/service/show?id={{id}}" class="div_servicio">
-                        {{#portada}}
-                        <img class="imagen_salones" src="../public/{{portada.imagen}}" alt="">
-                        {{/portada}}
+                    <a href="/service/show?id_salon={{id}}" class="div_servicio">
+                        
+                        <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
+                        
                         <div class="div_servicio_info">
                             <h4>{{titulo}}</h4>
                             <p>{{descripcion}}</p>
