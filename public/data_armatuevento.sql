@@ -1036,3 +1036,9 @@ INSERT INTO Salon (titulo, descripcion, calle, id_capacidad, id_proveedor, id_lo
     ('Salón Imperial', 
      'El Salón Imperial es ideal para eventos de gran envergadura, con capacidad para hasta 500 personas. Este magnífico espacio combina un diseño elegante con características modernas, proporcionando un entorno ideal para bodas, banquetes y eventos corporativos. Nuestro equipo de planificación de eventos está disponible para ayudarle en cada etapa del proceso, asegurando que su evento sea un éxito rotundo. La tecnología avanzada y el personal dedicado garantizan que cada detalle se maneje con precisión y estilo.', 
      'Boulevard G, 1617', 7, 1, 3);
+
+
+
+INSERT INTO `armatuevento`.`imagen` (`id`, `imagen`, `es_portada`) VALUES ('1', 'sinImagen.jpg', '1');
+INSERT INTO `armatuevento`.`imagen` (`id`, `imagen`, `id_servicio`, `es_portada`) VALUES ('2', 'bar1.png', '2', '1');
+INSERT INTO `armatuevento`.`imagen` (`id`, `imagen`, `id_servicio`, `es_portada`) VALUES ('3', 'bar2.png', '2', '0');
