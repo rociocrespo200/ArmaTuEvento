@@ -161,4 +161,87 @@ class ServiceModel
         //print_r($salon);
         return $salon;
     }
+
+    public function obtenerServiciosFiltrados($tipos, $provincias, $localidades, $busqueda, $orden) {
+        // Construir la consulta base
+        $sql = "SELECT Servicio.* FROM Servicio";
+
+        // Inicializa las uniones si se requieren más filtros
+        $joins = "";
+
+        // Filtros de tipo
+        $conditions = []; // Array para almacenar las condiciones del WHERE
+
+        if (!empty($tipos)) {
+            $tiposPlaceholder = implode(',', array_map('intval', $tipos)); // Asegúrate de que los IDs sean enteros
+            $conditions[] = "Servicio.id_tipo IN ($tiposPlaceholder)";
+        }
+
+        // Filtros de localidades
+        if (!empty($localidades)) {
+            $localidadesPlaceholder = implode(',', array_map('intval', $localidades)); // Asegúrate de que los IDs sean enteros
+            $conditions[] = "Servicio.id_localidad IN ($localidadesPlaceholder)";
+        }
+
+        // Filtros por provincia
+        if (!empty($provincias)) {
+            $provinciasPlaceholder = implode(',', array_map('intval', $provincias)); // Asegúrate de que los IDs sean enteros
+            $joins .= " INNER JOIN Proveedor ON Servicio.id_proveedor = Proveedor.id";
+            $joins .= " INNER JOIN Localidad ON Servicio.id_localidad = Localidad.id";
+            $joins .= " INNER JOIN Provincia ON Localidad.id_provincia = Provincia.id";
+            $conditions[] = "Provincia.id IN ($provinciasPlaceholder)";
+        }
+
+        // Añadir las uniones a la consulta si es necesario
+        $sql .= $joins;
+
+        // Construir la cláusula WHERE si hay condiciones
+        if (!empty($conditions)) {
+            $sql .= " WHERE " . implode(' AND ', $conditions);
+        }
+
+        // Búsqueda
+        if (!empty($busqueda)) {
+            $busqueda = "%$busqueda%";
+            $sql .= !empty($conditions) ? " AND" : " WHERE";
+            $sql .= " Servicio.titulo LIKE '$busqueda' OR Servicio.descripcion LIKE '$busqueda'";
+        }
+
+        /*// Orden
+        if (!empty($orden)) {
+            $sql .= " ORDER BY $orden";
+        }*/
+
+        // Ejecutar la consulta
+        $result = $this->database->query($sql);
+
+        $serviciosFiltrados = [];
+        if ($result) {
+            foreach ($result as $servicio) {
+                // Por cada servicio filtrado, llamamos a buscarServicio
+                $servicioDetallado = $this->buscarServicio($servicio['id']);
+                $serviciosFiltrados[] = $servicioDetallado;
+            }
+        }
+
+        return $serviciosFiltrados;
+    }
+
+    public function traerProvincias(){
+        return  $this->database->query("SELECT * FROM provincia");
+    }
+
+
+
+    public function traerLocalidades(){
+        return  $this->database->query("SELECT * FROM localidad");
+    }
+
+
+    public function traerLocalidadesPorProvincia($provincias){                //REVISAR
+        $provinciasPlaceholder = implode(',', array_map('intval', $provincias)); // Asegúrate de que los IDs sean enteros
+        $sql = "SELECT * FROM localidad WHERE 1 AND id_provincia IN ($provinciasPlaceholder)";
+        print_r($sql);
+        return  $sql;
+    }
 }

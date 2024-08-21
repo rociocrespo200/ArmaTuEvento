@@ -5,11 +5,15 @@
         <section id="section_servicios">
 
 
-            <form class="div_filtos_1" id="div_filtros" method="post" action="/service/filtrar" enctype="multipart/form-data">
+           <form class="div_filtos_1" id="div_filtros" method="post" action="/service/filtrar" enctype="multipart/form-data">
                 <div class="div_filtros_div">
                     <h5 class="titulo_filtro">Buscar por:</h5>
                     <div>
-                        <input type="search">
+                        <input type="search" name="busqueda">
+                        <select name="orden">
+                            <option value="recomendados">Recomendados</option>
+                            <option value="fecha">Fecha</option>
+                        </select>
                     </div>
                     
                 </div>
@@ -29,13 +33,37 @@
                         <h5 class="titulo_filtro">Tipo de servicio:</h5>
                         {{#tipos}}
                         <div>
-                            <label for=""><input type="checkbox" name="{{id}}" value="salones" id=""> {{tipo}}</label>
+                            <label for=""><input type="checkbox" value="{{id}}" name="tipos[]" id=""> {{tipo}}</label>
                             <p class="filtros_cant">10</p>
                         </div>
                         {{/tipos}}
                     </div>
                 </div>
                 {{/hayTipos}}
+
+                    <div>
+                        <div class="div_filtros_div">
+                            <h5 class="titulo_filtro">Provincias:</h5>
+                            {{#provincias}}
+                                <div>
+                                    <label for=""><input type="checkbox" value="{{id}}" name="provincias[]" id=""> {{provincia}}</label>
+                                    <p class="filtros_cant">10</p>
+                                </div>
+                            {{/provincias}}
+                        </div>
+                    </div>
+
+                <div>
+                    <div class="div_filtros_div">
+                        <h5 class="titulo_filtro">Localidades:</h5>
+                        {{#localidades}}
+                            <div>
+                                <label for=""><input type="checkbox" value="{{id}}" name="localidades[]" id=""> {{localidad}}</label>
+                                <p class="filtros_cant">10</p>
+                            </div>
+                        {{/localidades}}
+                    </div>
+                </div>
 
                 <button type="submit" class="btn boton3 w-100 mt-2" >Filtrar</button>
 

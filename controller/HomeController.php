@@ -11,9 +11,12 @@ class HomeController {
 
     public function show() {
         $datos = [
-
+            'tipos' => $this->model->traerTipos(),
+            'provincias' => $this->model->traerProvincias(),
+            //'servicios' => $this->model->traerServiciosRecomendados(),
+            //'salones' => $this->model->traerSalonesRecomendados(),
         ];
-        $this->render->printView('index');//crea una vista, con el constructor de esta clase, llamada home
+        $this->render->printView('index', $datos);//crea una vista, con el constructor de esta clase, llamada home
     }
 
 

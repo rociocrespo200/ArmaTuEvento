@@ -30,7 +30,8 @@ class ServiceController
             $id = $_GET['id_salon'];
 
             $datos = [
-                'servicio' =>  $this->model->buscarSalon($id)  
+                'servicio' =>  $this->model->buscarSalon($id),
+                'esSalon' =>  true,  
             ];
             
             //print_r($datos['servicio']);
@@ -43,6 +44,8 @@ class ServiceController
                 'servicios' => $this->model->traerServicios($filtro),
                 'hayTipos' => true,
                 'tipos' =>  $this->model->traerTipos(),
+                'provincias' => $this->model->traerProvincias(),
+                'localidades'=> $this->model->traerLocalidades(),
             ];
     
            // print_r($datos['servicios']);
@@ -51,6 +54,28 @@ class ServiceController
 
     }
 
+    public function filtrar() {
+        $tipos = isset($_POST['tipos']) ? $_POST['tipos'] : [];
+        $provincias = isset($_POST['provincias']) ? $_POST['provincias'] : [];
+        $localidades = isset($_POST['localidades']) ? $_POST['localidades'] : [];
+        $busqueda = isset($_POST['busqueda']) ? $_POST['busqueda'] : '';
+        $orden = isset($_POST['orden']) ? $_POST['orden'] : 'recomendados';
+
+
+        //var_dump($tipos, $busqueda, $orden);
+        $serviciosFiltrados = $this->model->obtenerServiciosFiltrados($tipos, $provincias, $localidades,  $busqueda, $orden);
+
+
+        $datos = [
+            'servicios' => $serviciosFiltrados,
+            'hayTipos' => true,
+            'tipos' => $this->model->traerTipos(),
+            'provincias' => $this->model->traerProvincias(),
+            'localidades'=> $this->model->traerLocalidades(),
+        ];
+
+        $this->render->printView('servicios', $datos);
+    }
     
 
     public function traerSalones() {
@@ -66,32 +91,39 @@ class ServiceController
 
     public function agregarAlCarrito() {
 
-        if (isset($_GET['id'])) { //Si selecciono un servicio especifico me envia al detalle de ese servicio
+        if (isset($_GET['id_servicio'])) { // AGREGAR SERVICIO
             
-            $id = $_GET['id'];
+            $id = $_GET['id_servicio'];
             $nuevoServicio = $this->model->buscarServicio($id);
             
-        if (!isset($_SESSION['carrito'])) { // Inicializar el carrito si no existe
-            $_SESSION['carrito'] = [];
-        }
-
-        
-        $existe = false; // Verificar si el servicio ya está en el carrito
-        foreach ($_SESSION['carrito'] as $servicio) {
-            if ($servicio['id'] == $id) {
-                $existe = true;
-                break;
+            if (!isset($_SESSION['carrito'])) $_SESSION['carrito'] = []; // Inicializar el carrito si no existe
+            
+            $existe = false; 
+            foreach ($_SESSION['carrito'] as $salon) { // Verificar si el servicio ya está en el carrito
+                if ($salon['id'] == $id)  $existe = true; break;
             }
-        }
 
-        // Si no existe, agregarlo al carrito
-        if (!$existe) {
-            $_SESSION['carrito'][] = $nuevoServicio;
-        }
+            if (!$existe) $_SESSION['carrito'][] = $nuevoServicio;// Si no existe, agregarlo al carrito
             
-            
-            Redirect::to('/service/show?id=' . $id);
 
+            Redirect::to('/service/show?id_servicio=' . $id);
+
+        }else{ // AGREGAR SALON
+
+            $id = $_GET['id_salon'];
+            $nuevoSalon = $this->model->buscarSalon($id);
+            
+            if (!isset($_SESSION['carrito2'])) $_SESSION['carrito2'] = []; // Inicializar el carrito si no existe
+            
+            $existe = false; // Verificar si el servicio ya está en el carrito
+            foreach ($_SESSION['carrito2'] as $salon) {
+                if ($salon['id'] == $id)  $existe = true; break;
+            }
+
+            if (!$existe) $_SESSION['carrito2'][] = $nuevoSalon;// Si no existe, agregarlo al carrito
+            
+
+            Redirect::to('/service/show?id_salon=' . $id);
         }
     }
 

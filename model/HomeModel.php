@@ -7,12 +7,12 @@ class HomeModel {
         $this->database = $database;
     }
 
-    public function traerUsuario($id){ //agregado
-        $result = $this->database->query("SELECT * FROM `usuario` WHERE id = $id");
-        if(!empty($result)){
-            return $result[0];
-        }
+    public function traerTipos(){
+        return $this->database->query("SELECT * FROM `tipoDeServicio`");
     }
 
+    public function traerProvincias(){
+        return $this->database->query("SELECT * FROM `provincia`");
+    }
 
 }

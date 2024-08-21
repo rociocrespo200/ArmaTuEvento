@@ -1,8 +1,24 @@
     <main>
 
-        <form id="carrito">
+        <form id="carrito"  method="post" action="/carrito/enviarConsulta" enctype="multipart/form-data">
 
             <h2 class="titulo">Servicios en el carrito</h2>
+
+            
+            {{#salones}}
+            <div class="div_carrito" style="background-color: #f1f1ff">
+                <div>
+                    <img src="../public/servicios/{{imagenes.portada.imagen}}" class="img_carrito">
+                    <p>{{titulo}} - <a href="">Ver mas</a></p>
+                </div>
+                <div>
+                    <a href="" class="btn boton3" id="boton{{id}}">+ Agregar mensaje</a>
+                    <a href="/carrito/eliminarDelCarrito?id_salon={{id}}"><img class="boton_eliminar" src="../public/borrar.png" alt="" /></a>
+                </div>
+            </div>
+            <textarea class="form-control div_carrito" id="{{id}}" name="msjSalon{{id}}" rows="2" placeholder="Escribe tu consulta ..."
+                style="display: none;"></textarea>
+            {{/salones}}
 
             {{#servicios}}
             <div class="div_carrito">
@@ -12,44 +28,71 @@
                 </div>
                 <div>
                     <a href="" class="btn boton3" id="boton{{id}}">+ Agregar mensaje</a>
-                    <a href="/carrito/eliminarDelCarrito?id={{id}}"><img class="boton_eliminar" src="../public/borrar.png" alt="" /></a>
+                    <a href="/carrito/eliminarDelCarrito?id_servicio={{id}}"><img class="boton_eliminar" src="../public/borrar.png" alt="" /></a>
                 </div>
             </div>
-            <textarea class="form-control div_carrito" id="text{{id}}" rows="2" placeholder="Escribe tu consulta ..."
+            <textarea class="form-control div_carrito" id="{{id}}" name="msjServicio{{id}}" rows="2" placeholder="Escribe tu consulta ..."
                 style="display: none;"></textarea>
             {{/servicios}}
 
-            <button type="submit" class="btn boton2 w-50">Enviar consulta</button>
+            <div class="form-row mt-2">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" >
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" >
+                </div>
+            </div>
+            <button type="submit" class="btn boton3 " style="width:440px">Enviar consulta</button>
 
         </form>
     </main>
 
+{{#consulta}}
+    <div class="popup">
+        <div class="div_popup">
+            <a href="/carrito/show" id="cerrar_popup" >X</a>
+                <h2 class="titulo">Consulta enviada</h2>
+                <ul>
+                    <li><strong>Nombre del cliente:</strong> {{nombre}}</li>
+                    <li><strong>Email del cliente:</strong> {{email}}</li>
+                    {{#consultasServicio}}
+                    <li><strong>{{servicio.titulo}}:</strong> {{msj}} - <small>{{servicio.proveedor.email}}</small></li>
+                    {{/consultasServicio}}
+                    {{#consultasSalon}}
+                    <li><strong>{{salon.titulo}}:</strong> {{msj}} - <small>{{salon.proveedor.email}}</small></li>
+                    {{/consultasSalon}}
+                </ul>
+        </div>
+    </div>
+{{/consulta}}
 
 <script>
-    // Mostrar textarea al tocar el botón de agregar mensaje
-    document.addEventListener('DOMContentLoaded', function () {
-        // Seleccionamos todos los botones con la clase 'boton3'
-        var agregarMensajes = document.querySelectorAll('.boton3');
+document.addEventListener('DOMContentLoaded', function() {
+    // Obtener todos los botones de "Agregar mensaje"
+    const botones = document.querySelectorAll('a[id^="boton"]');
 
-        // Iteramos sobre cada botón
-        agregarMensajes.forEach(function (boton) {
-            boton.addEventListener('click', function (event) {
-                event.preventDefault(); // Previene que el enlace recargue la página
+    // Añadir evento de clic a cada botón
+    botones.forEach(boton => {
+        boton.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevenir la acción por defecto del enlace
 
-                // Obtenemos el ID del botón y construimos el ID del textarea correspondiente
-                var id = boton.getAttribute('id').replace('boton', 'text');
-                var textArea = document.getElementById(id);
+            // Obtener el id del botón y usarlo para encontrar el textarea correspondiente
+            const id = this.id.replace('boton', '');
+            const textarea = document.getElementById(id);
 
-                // Alternamos la visibilidad del textarea
-                if (textArea.style.display === 'none') {
-                    textArea.style.display = 'block';
-                } else {
-                    textArea.style.display = 'none';
-                }
-            });
+            // Alternar la visibilidad del textarea
+            if (textarea) {
+                textarea.style.display = textarea.style.display === 'none' ? 'block' : 'none';
+            }
         });
     });
-</script>
+});
+
+</script> 
+
 
 
 
