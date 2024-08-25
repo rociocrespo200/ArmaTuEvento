@@ -21,9 +21,6 @@ class ServiceModel
         $servicios = array();
         foreach ($serviciosTemp as $s) {
 
-
-
-
             $servicio = [
                 'id' => $s['id'],
                 'titulo' => $s['titulo'],
@@ -43,6 +40,12 @@ class ServiceModel
 
     public function buscar($tabla, $comparacion)
     { //agregado
+        if( is_array($comparacion)){
+            if(empty($comparacion)) return [];
+
+            $ids = implode(', ', $comparacion);
+            return $this->database->query("SELECT * FROM $tabla WHERE $tabla.id IN ($ids)");
+        }
         return  $this->database->query("SELECT * FROM $tabla WHERE $tabla.id = $comparacion");
     }
 
@@ -162,7 +165,14 @@ class ServiceModel
         return $salon;
     }
 
-    public function obtenerServiciosFiltrados($tipos, $provincias, $localidades, $busqueda, $orden) {
+    public function obtenerServiciosFiltrados() {
+
+        $tipos =  $_SESSION['filtros']['tipos'];
+        $provincias =  $_SESSION['filtros']['provincias'];
+        $localidades =  $_SESSION['filtros']['localidades'];
+        $busqueda =  $_SESSION['filtros']['busqueda'];
+        $orden =  $_SESSION['filtros']['orden'];
+
         // Construir la consulta base
         $sql = "SELECT Servicio.* FROM Servicio";
 
@@ -207,18 +217,12 @@ class ServiceModel
             $sql .= " Servicio.titulo LIKE '$busqueda' OR Servicio.descripcion LIKE '$busqueda'";
         }
 
-        /*// Orden
-        if (!empty($orden)) {
-            $sql .= " ORDER BY $orden";
-        }*/
 
-        // Ejecutar la consulta
         $result = $this->database->query($sql);
 
         $serviciosFiltrados = [];
         if ($result) {
             foreach ($result as $servicio) {
-                // Por cada servicio filtrado, llamamos a buscarServicio
                 $servicioDetallado = $this->buscarServicio($servicio['id']);
                 $serviciosFiltrados[] = $servicioDetallado;
             }
@@ -227,21 +231,17 @@ class ServiceModel
         return $serviciosFiltrados;
     }
 
-    public function traerProvincias(){
-        return  $this->database->query("SELECT * FROM provincia");
-    }
-
-
-
-    public function traerLocalidades(){
-        return  $this->database->query("SELECT * FROM localidad");
-    }
-
-
-    public function traerLocalidadesPorProvincia($provincias){                //REVISAR
-        $provinciasPlaceholder = implode(',', array_map('intval', $provincias)); // Asegúrate de que los IDs sean enteros
+    public function traerLocalidadesPorProvincia($provincias){              
+        $provinciasPlaceholder = implode(',', array_map('intval', $provincias)); 
         $sql = "SELECT * FROM localidad WHERE 1 AND id_provincia IN ($provinciasPlaceholder)";
         print_r($sql);
         return  $sql;
     }
+
+    public function traerProvincias(){ return  $this->database->query("SELECT * FROM provincia");
+    }
+
+    public function traerLocalidades(){ return  $this->database->query("SELECT * FROM localidad");
+    }
+
 }

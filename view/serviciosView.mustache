@@ -1,23 +1,41 @@
-
-
     <main>
-       
         <section id="section_servicios">
 
+            <form class="div_filtos_1" id="div_filtros" method="post" action="/service/filtrar"
+                enctype="multipart/form-data">
 
-           <form class="div_filtos_1" id="div_filtros" method="post" action="/service/filtrar" enctype="multipart/form-data">
+                <div class="tag_filtros">
+                    {{#filtros.tipos}}
+                    <div class="etiqueta">
+                        <p class="m-0">{{tipo}}</p><a href="/service/eliminarFiltro?tipo={{id}}">✖</a>
+                    </div>
+                    {{/filtros.tipos}}
+                    {{#filtros.provincias}}
+                    <div class="etiqueta">
+                        <p class="m-0">{{provincia}}</p><a href="/service/eliminarFiltro?provincia={{id}}">✖</a>
+                    </div>
+                    {{/filtros.provincias}}
+                    {{#filtros.localidades}}
+                    <div class="etiqueta">
+                        <p class="m-0">{{localidad}}</p><a href="/service/eliminarFiltro?localidad={{id}}">✖</a>
+                    </div>
+                    {{/filtros.localidades}}
+                    {{#filtros.busqueda}}
+                    <div class="etiqueta">
+                        <p class="m-0">{{filtros.busqueda}}</p><a href="/service/eliminarFiltro?busqueda=true">✖</a>
+                    </div>
+                    {{/filtros.busqueda}}
+                </div>
+
+                <!-- Filtro de búsqueda -->
                 <div class="div_filtros_div">
                     <h5 class="titulo_filtro">Buscar por:</h5>
                     <div>
                         <input type="search" name="busqueda">
-                        <select name="orden">
-                            <option value="recomendados">Recomendados</option>
-                            <option value="fecha">Fecha</option>
-                        </select>
                     </div>
-                    
                 </div>
 
+                <!-- Filtro de orden -->
                 <div class="div_filtros_div">
                     <h5 class="titulo_filtro">Ordenar por:</h5>
                     <div>
@@ -27,83 +45,92 @@
                     </div>
                 </div>
 
+                <!-- Filtro de tipos -->
                 {{#hayTipos}}
-                <div >
-                    <div class="div_filtros_div">
+                <div>
+                    <div class="div_filtros_div" id="filtros_tipos">
                         <h5 class="titulo_filtro">Tipo de servicio:</h5>
                         {{#tipos}}
-                        <div>
+                        <div class="div_filtro hidden">
                             <label for=""><input type="checkbox" value="{{id}}" name="tipos[]" id=""> {{tipo}}</label>
                             <p class="filtros_cant">10</p>
                         </div>
                         {{/tipos}}
+                        <button class="btn verMas w-100" id="verMasBtn_tipos" type="button"
+                            onclick="verMas('filtros_tipos')">Ver más</button>
+                        <button type="button" id="verMenosBtn_tipos" onclick="verMenos('filtros_tipos')"
+                            class="btn verMas w-100" style="display: none;">Ver menos</button>
                     </div>
                 </div>
                 {{/hayTipos}}
 
-                    <div>
-                        <div class="div_filtros_div">
-                            <h5 class="titulo_filtro">Provincias:</h5>
-                            {{#provincias}}
-                                <div>
-                                    <label for=""><input type="checkbox" value="{{id}}" name="provincias[]" id=""> {{provincia}}</label>
-                                    <p class="filtros_cant">10</p>
-                                </div>
-                            {{/provincias}}
-                        </div>
-                    </div>
-
+                <!-- Filtro de provincias -->
                 <div>
-                    <div class="div_filtros_div">
-                        <h5 class="titulo_filtro">Localidades:</h5>
-                        {{#localidades}}
-                            <div>
-                                <label for=""><input type="checkbox" value="{{id}}" name="localidades[]" id=""> {{localidad}}</label>
-                                <p class="filtros_cant">10</p>
-                            </div>
-                        {{/localidades}}
+                    <div class="div_filtros_div" id="filtros_provincias">
+                        <h5 class="titulo_filtro">Provincias:</h5>
+                        {{#provincias}}
+                        <div class="div_filtro hidden">
+                            <label for=""><input type="radio" value="{{id}}" name="provincias[]" id="">
+                                {{provincia}}</label>
+                            <p class="filtros_cant">10</p>
+                        </div>
+                        {{/provincias}}
+                        <button class="btn verMas w-100" id="verMasBtn_provincias" type="button"
+                            onclick="verMas('filtros_provincias')">Ver más</button>
+                        <button type="button" id="verMenosBtn_provincias" onclick="verMenos('filtros_provincias')"
+                            class="btn verMas w-100" style="display: none;">Ver menos</button>
                     </div>
                 </div>
 
-                <button type="submit" class="btn boton3 w-100 mt-2" >Filtrar</button>
+                <!-- Filtro de localidades -->
+                <div>
+                    <div class="div_filtros_div" id="filtros_localidades">
+                        <h5 class="titulo_filtro">Localidades:</h5>
+                        {{#localidades}}
+                        <div class="div_filtro hidden">
+                            <label for=""><input type="checkbox" value="{{id}}" name="localidades[]" id="">
+                                {{localidad}}</label>
+                            <p class="filtros_cant">10</p>
+                        </div>
+                        {{/localidades}}
+                        <button class="btn verMas w-100" id="verMasBtn_localidades" type="button"
+                            onclick="verMas('filtros_localidades')">Ver más</button>
+                        <button type="button" id="verMenosBtn_localidades" onclick="verMenos('filtros_localidades')"
+                            class="btn verMas w-100" style="display: none;">Ver menos</button>
+                    </div>
+                </div>
 
+                <button type="submit" class="btn boton3 w-100 mt-2">Filtrar</button>
             </form>
-            
 
             <div class="div_section_content">
                 {{#servicios}}
-                    <a href="/service/show?id_servicio={{id}}" class="div_servicio">
+                <a href="/service/show?id_servicio={{id}}" class="div_servicio">
 
-                        <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
+                    <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
 
-                        <div class="div_servicio_info">
-                            <h4>{{titulo}}</h4>
-                            <p>{{descripcion}}</p>
-                            <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
-                        </div>
-                        <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
-                    </a>
+                    <div class="div_servicio_info">
+                        <h4>{{titulo}}</h4>
+                        <p>{{descripcion}}</p>
+                        <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
+                    </div>
+                    <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
+                </a>
                 {{/servicios}}
 
                 {{#salones}}
-                    <a href="/service/show?id_salon={{id}}" class="div_servicio">
-                        
-                        <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
-                        
-                        <div class="div_servicio_info">
-                            <h4>{{titulo}}</h4>
-                            <p>{{descripcion}}</p>
-                            <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
-                        </div>
-                        <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
-                    </a>
+                <a href="/service/show?id_salon={{id}}" class="div_servicio">
+
+                    <img class="imagen_salones" src="../public/servicios/{{imagenes.portada.imagen}}" alt="">
+
+                    <div class="div_servicio_info">
+                        <h4>{{titulo}}</h4>
+                        <p>{{descripcion}}</p>
+                        <span class="span_ubicaion">Buenos aires, zona este, {{localidad.localidad}}</span>
+                    </div>
+                    <div class="servicio_icon"> <img src="../public/{{tipoDeServicio.icono}}" alt=""></div>
+                </a>
                 {{/salones}}
-                
-
             </div>
-
-        
-            
         </section>
     </main>
-
